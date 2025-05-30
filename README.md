@@ -2,15 +2,7 @@
 
 A simple TODO list app built with **React Native (Expo)**.
 
-## ⚙️ Tech Stack
-
-- React Native (with Expo)
-- Zustand (global state)
-- AsyncStorage (data persistence)
-- TypeScript
-- Jest + React Native Testing Library (testing)
-
-## ▶️ Getting Started
+## ▶️ How to Run
 
 Install dependencies:
 

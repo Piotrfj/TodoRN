@@ -42,7 +42,7 @@ describe('useTodoStore', () => {
     it('edits a todo item', () => {
         act(() => {
             store.getState().addTodo('Old text');
-            store.getState().editTodo(store.getState().todos[0].id, 'Updated text');
+            store.getState().editTodo(store.getState().todos[0].id, 'Updated text', '', 'normal');
         });
 
         expect(store.getState().todos[0].text).toBe('Updated text');
